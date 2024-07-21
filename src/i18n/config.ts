@@ -4,7 +4,7 @@ import translation from './locales/en.json'
 
 i18next.use(initReactI18next).init({
   lng: 'en',
-  debug: true,
+  debug: false,
   resources: {
     en: {
       translation
