@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux'
 
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { increment, reset } from './features/counter/counterSlice'
 import { RootState } from './store'
@@ -13,9 +13,6 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
