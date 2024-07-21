@@ -1,0 +1,51 @@
+.HInput {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: inherit;
+  border: none;
+  background-color: transparent;
+  outline: none;
+
+  padding-block: 0 0;
+  padding-inline: var(--spacing-md-rem);
+}
+
+.HInputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  cursor: text;
+  border-radius: 4px;
+  border: solid 1px var(--colors-border-tertiary);
+  background-color: var(--colors-background-input);
+  height: 40px;
+  margin-block-end: 0.35rem;
+
+  &:hover {
+    border-color: var(--colors-border-selected);
+  }
+
+  &[data-ui-disabled='true'] {
+    border-color: var(--colors-border-disabled,);
+    pointer-events: none;
+    user-select: none;
+
+    .TextInput {
+      color: var(--colors-text-disabled);
+    }
+  }
+
+  &:focus-within {
+    border: solid 1px var(--colors-border-focus);
+    outline: none;
+  }
+
+  &[data-ui-error='true'] {
+    background-color: var(--colors-background-danger);
+    border-color: var(--colors-border-danger);
+  }
+}
