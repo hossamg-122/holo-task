@@ -1,10 +1,13 @@
 import './i18n/config'
 import './App.css'
+import { HInput } from '@/components'
 
 function App() {
   return (
     <>
-      <div>welcome to github search</div>
+      <div>
+        <HInput label="test label" id="test" />
+      </div>
     </>
   )
 }

@@ -1,0 +1,12 @@
+:root {
+  --colors-text-primary: #000c02;
+  --colors-text-disabled: #bababa;
+  --colors-border-tertiary: #bababa;
+  --colors-background-input: #ffffff;
+  --colors-border-selected: #727272;
+  --colors-border-disabled: #bababa;
+  --colors-border-focus: #73c0ed;
+  --colors-background-danger: #fff1f0;
+  --colors-border-danger: #c13833;
+  --spacing-md-rem: 1rem;
+}
