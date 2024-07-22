@@ -1,5 +1,5 @@
 .HLabel {
-  color: var(--colors-text-primary);
+  color: var(--h-colors-text-primary);
   font-size: 1rem;
   line-height: 1.25rem;
   display: inline-block;
@@ -8,6 +8,6 @@
   margin-bottom: 0.25rem;
 
   &[data-ui-disabled='true'] {
-    color: var(--colors-text-disabled);
+    color: var(--h-colors-text-disabled);
   }
 }

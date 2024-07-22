@@ -1,12 +1,36 @@
 :root {
-  --colors-text-primary: #000c02;
-  --colors-text-disabled: #bababa;
-  --colors-border-tertiary: #bababa;
-  --colors-background-input: #ffffff;
-  --colors-border-selected: #727272;
-  --colors-border-disabled: #bababa;
-  --colors-border-focus: #73c0ed;
-  --colors-background-danger: #fff1f0;
-  --colors-border-danger: #c13833;
-  --spacing-md-rem: 1rem;
+  --h-colors-text-primary: #000c02;
+  --h-colors-text-secondary: #727272;
+  --h-colors-text-disabled: #bababa;
+
+  --h-colors-background-input: #ffffff;
+  --h-colors-background-default: #ffffff;
+  --h-colors-background-hover: #f4f4f4;
+  --h-colors-background-danger: #fff1f0;
+
+  --h-colors-border-tertiary: #bababa;
+  --h-colors-border-selected: #727272;
+  --h-colors-border-disabled: #bababa;
+  --h-colors-border-focus: #73c0ed;
+  --h-colors-border-danger: #c13833;
+
+  --h-radius-xs: 0.25rem; /* 4px */
+  --h-radius-sm: 0.375rem; /* 6px */
+  --h-radius-md: 0.5rem; /* 8px */
+  --h-radius-lg: 0.625rem; /* 10px */
+  --h-radius-xl: 0.75rem; /* 12px */
+
+  --h-spacing-2xs-rem: 0.25rem;
+  --h-spacing-xs-rem: 0.5rem;
+  --h-spacing-md-rem: 1rem;
+
+  --h-font-xs: 0.75rem; /* 12px */
+  --h-font-sm: 0.875rem; /* 14px */
+  --h-font-base: 1rem; /* 16px */
+  --h-font-lg: 1.125rem; /* 18px */
+  --h-font-xl: 1.25rem; /* 20px */
+  --h-font-2xl: 1.5rem; /* 24px */
+  --h-font-3xl: 1.75rem; /* 28px */
+
+  --h-input-height: 2.5rem;
 }

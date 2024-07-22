@@ -1,5 +1,5 @@
 .HInput {
-  font-size: 1rem;
+  font-size: var(--h-font-base);
   font-weight: 400;
   line-height: 1.25rem;
   box-sizing: border-box;
@@ -10,7 +10,7 @@
   outline: none;
 
   padding-block: 0 0;
-  padding-inline: var(--spacing-md-rem);
+  padding-inline: var(--h-spacing-md-rem);
 }
 
 .HInputWrapper {
@@ -19,33 +19,33 @@
   justify-content: space-around;
   position: relative;
   cursor: text;
-  border-radius: 4px;
-  border: solid 1px var(--colors-border-tertiary);
-  background-color: var(--colors-background-input);
-  height: 40px;
+  border-radius: var(--h-radius-xs);
+  border: solid 1px var(--h-colors-border-tertiary);
+  background-color: var(--h-colors-background-input);
+  height: var(--h-input-height);
   margin-block-end: 0.35rem;
 
   &:hover {
-    border-color: var(--colors-border-selected);
+    border-color: var(--h-colors-border-selected);
   }
 
   &[data-ui-disabled='true'] {
-    border-color: var(--colors-border-disabled,);
+    border-color: var(--h-colors-border-disabled,);
     pointer-events: none;
     user-select: none;
 
     .TextInput {
-      color: var(--colors-text-disabled);
+      color: var(--h-colors-text-disabled);
     }
   }
 
   &:focus-within {
-    border: solid 1px var(--colors-border-focus);
+    border: solid 1px var(--h-colors-border-focus);
     outline: none;
   }
 
   &[data-ui-error='true'] {
-    background-color: var(--colors-background-danger);
-    border-color: var(--colors-border-danger);
+    background-color: var(--h-colors-background-danger);
+    border-color: var(--h-colors-border-danger);
   }
 }
