@@ -2,5 +2,18 @@
   "notFound": {
     "title": "404 - Not Found!",
     "description": "The page you are looking for does not exist."
+  },
+  "forbidden": {
+    "title": "404 - Not Found!",
+    "description": "The page you are looking for does not exist."
+  },
+  "search": {
+    "title": "GitHub Searcher",
+    "subTitle": "Search users or repositories below",
+    "select": {
+      "users": "Users",
+      "repositories": "Repositories"
+    },
+    "noMoreResults": "Yay! You have seen it all"
   }
 }
