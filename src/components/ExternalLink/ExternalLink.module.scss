@@ -1,0 +1,9 @@
+.ExternalLink {
+  color: var(--h-colors-border-focus);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.ExternalLink:hover {
+  text-decoration: underline;
+}
