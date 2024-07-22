@@ -1,6 +1,6 @@
 import './i18n/config'
 import './App.css'
-import { HHeading, HInput, HSelect } from '@/components'
+import { HHeading, HIcon, HInput, HSelect } from '@/components'
 const options = [
   { label: 'option 1', value: 1 },
   { label: 'option 1', value: 2, disabled: true },
@@ -18,6 +18,7 @@ function App() {
       </div>
       <HSelect label="test" placeholder="test" options={options} onChange={handleSelect} />
       <HHeading level={1}>test</HHeading>
+      <HIcon name="github" />
     </>
   )
 }
