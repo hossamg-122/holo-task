@@ -1,0 +1,33 @@
+.errorMessageContainer {
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
+}
+
+.errorMessage {
+  color: var(--h-colors-border-danger);
+  margin: 10px 0;
+  font-size: 1rem;
+  max-width: 350px;
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border-color: var(--h-colors-background-danger);
+  background-color: var(--h-colors-background-danger);
+  border-left: 5px solid var(--h-colors-background-danger);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.closeButton {
+  top: 0;
+  right: 0;
+  border: none;
+  line-height: 1;
+  cursor: pointer;
+  background: none;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  position: absolute;
+}
