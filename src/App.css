@@ -39,6 +39,7 @@ body {
   --h-spacing-2xs-rem: 0.25rem;
   --h-spacing-xs-rem: 0.5rem;
   --h-spacing-md-rem: 1rem;
+  --h-spacing-lg-rem: 1.25rem;
 
   --h-font-xs: 0.75rem; /* 12px */
   --h-font-sm: 0.875rem; /* 14px */
@@ -53,4 +54,6 @@ body {
   --h-input-height: 2.5rem;
 
   --h-screen-width: 1200px;
+
+  --h-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
