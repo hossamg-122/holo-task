@@ -1,3 +1,6 @@
 {
-  "count": "count is"
+  "notFound": {
+    "title": "404 - Not Found!",
+    "description": "The page you are looking for does not exist."
+  }
 }
