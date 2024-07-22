@@ -1,0 +1,22 @@
+@import '@/components/CardList/CardList.module.scss';
+
+@keyframes wave {
+  0% {
+    background-position: -100%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.skeleton {
+  position: relative;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  animation: wave 2s infinite linear;
+}
+
+.card.skeleton {
+  overflow: hidden;
+  justify-content: center;
+}
