@@ -1,0 +1,10 @@
+.notFoundContainer {
+  height: 80vh;
+  display: flex;
+  gap: 1rem;
+  color: var(--h-colors-text-primary);
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
