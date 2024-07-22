@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap';
+
 *,
 *::after,
 *::before {
@@ -6,6 +8,12 @@
   box-sizing: inherit;
 }
 
+html {
+  font-family: Inter, sans-serif;
+}
+body {
+  overflow: hidden;
+}
 :root {
   --h-colors-text-primary: #000c02;
   --h-colors-text-secondary: #727272;
@@ -43,4 +51,6 @@
   --h-font-5xl: 2.5rem; /* 40px */
 
   --h-input-height: 2.5rem;
+
+  --h-screen-width: 1200px;
 }
