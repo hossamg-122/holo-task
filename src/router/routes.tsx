@@ -1,4 +1,4 @@
-import { Home, NotFound } from '@/pages'
+import { Forbidden, Home, NotFound } from '@/pages'
 
 export const routes = [
   {
@@ -8,5 +8,9 @@ export const routes = [
   {
     path: '*',
     element: <NotFound />
+  },
+  {
+    path: '/forbidden',
+    element: <Forbidden />
   }
 ]
