@@ -1,0 +1,47 @@
+.HSelect {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--h-spacing-2xs-rem);
+  padding: var(--h-spacing-xs-rem) var(--h-spacing-md-rem);
+  height: var(--h-input-height);
+  font-size: var(--h-font-base);
+  line-height: 1.25rem;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: var(--h-colors-text-primary);
+  background-color: var(--h-colors-background-default);
+  border: solid 1px var(--h-colors-border-tertiary);
+  border-radius: var(--h-radius-xs);
+  outline-color: --h-colors-border-focus;
+
+  &[data-placeholder] {
+    color: var(--h-colors-text-secondary);
+  }
+
+  &:hover {
+    background-color: var(--h-colors-background-hover);
+    cursor: pointer;
+  }
+
+  &[data-disabled] {
+    color: var(--h-colors-text-disabled);
+    border-color: var(--h-colors-border-tertiary);
+    background-color: var(--h-colors-background-default);
+    &:hover {
+      border-color: var(--h-colors-background-hover);
+      background-color: var(--h-colors-background-hover);
+      cursor: default;
+    }
+  }
+
+  &[data-error='true'] {
+    background-color: var(--h-colors-background-danger);
+    border-color: var(--h-colors-text-danger);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--h-colors-border-focus);
+  }
+}
