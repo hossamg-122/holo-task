@@ -18,6 +18,36 @@ Holo GitHub searcher is a web application that allows users to search in github 
 - Pull Request Template: Developed a pull request template to provide clear details about each pull request.
 - Unit Testing: Utilized jest for unit testing for most of the components.
 
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Run Unit Tests with Jest
+
+```sh
+npm run test
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+````sh
+npm run lint
+
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
@@ -34,7 +64,7 @@ export default {
     tsconfigRootDir: __dirname
   }
 }
-```
+````
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
